@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue; /*cor da fonte*/
+    /*background-color: aqua; /*cor de fundo da fonte*/
+    font-size: 96px; /*tamanho da fonte*/
+    font-weight: 100; /* tamanho do peso(finura) da fonte*/
+    font-style: italic; /*formato da fonte*/
+    text-align: center;
+}
+
+h2{
+    color: rgb(15, 15, 104);
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.bg-img {
+    /*altura*/
+    height: 300px;
+    /*largura*/
+    width: 100%;
+    background-color: aqua;
+    /*adicionando imagem*/
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/7209994-fundo-abstrato-tecnologia-moderna-banner-digital-pano-de-fundo-capa-modelo-grafico-papel-de-parede-gratis-foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
