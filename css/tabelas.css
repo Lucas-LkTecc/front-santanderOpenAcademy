@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman';
+    font-size: 1.8rem;
+}
+table, td, th{
+    border: 1px solid black
+}
+table thead tr:first-child {
+    background-color: steelblue;
+    color: white;
+}
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+table tr:nth-child(2n + 2)  {
+    background-color: #999;
+}
+h1{
+    color: blueviolet;
+    font-weight: 900;
+}
+ul, ol{
+    padding-left: 2.4rem;
+}

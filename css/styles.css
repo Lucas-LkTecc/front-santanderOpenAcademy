@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Times New Roman';
+}
+
 h1{
     color: blue; /*cor da fonte*/
     /*background-color: aqua; /*cor de fundo da fonte*/
