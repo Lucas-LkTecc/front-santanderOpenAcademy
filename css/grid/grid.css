@@ -1,0 +1,16 @@
+
+
+.box p, button {
+    font-size: 4rem;
+}
+
+.boxes {
+    height: calc(100vh);
+    position: relative;
+
+    display: grid;
+    justify-content: flex-start;
+    gap: 2rem 5rem;
+
+    grid-template-columns: 1fr 1fr;
+}
