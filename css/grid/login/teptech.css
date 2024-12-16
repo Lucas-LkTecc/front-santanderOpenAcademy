@@ -1,0 +1,27 @@
+main {
+    grid-area: title;
+}
+
+aside {
+    grid-area: login;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (min-width: 1024px) {
+    .page-content {
+        display: grid;
+        gap: 10rem 0;
+
+        grid-template-areas:
+        ". . . . ."
+        ". title login login ."
+        ". title login login ."
+        ". title login login ."
+        ". . . . ."
+        "footer footer footer footer footer"
+        ;
+    }
+}
