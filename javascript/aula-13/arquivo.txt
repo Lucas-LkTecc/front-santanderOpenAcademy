@@ -1,0 +1,3 @@
+Nome: Lucas
+Idade: 27
+Altura: 1.70
